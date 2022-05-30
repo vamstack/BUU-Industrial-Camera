@@ -1,5 +1,5 @@
 # Capturing Images from Industrial Camera Using OpenCV Python
-This Software Captures an image by accessing video or the webcam of your system and save it to your pc.
+This software captures an image by accessing video or the camera of your system and save it to your pc.
 
 
 # Softwares and packages required:
