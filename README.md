@@ -3,19 +3,13 @@ This Software Captures an image by accessing video or the webcam of your system 
 
 
 # Softwares and packages required:
-1. Python, v3.9.6
-2. Matplotlib, v3.0.2
-   pip3 install matplotlib
-3. OpenCV, v3.
-   pip install python3-opencv 
+1. Python: 3.8.9, 3.9.6
+2. Ubuntu: 18.04, 20.04
+3. OpenCV: sudo apt install python3-opencv python3-numpy 
 
 Read the full document.
 
 # How this software:
-1. Run the file Code_WebCam_Capture.py
-2. The webcam will start running.
-3. Bring the picture that you want to save in the webcam frame.
-4. Once the object is in the right frame, press the key 's' to save a picture.
-5. If you want to quit, just press 'q'.
-6. After hitting 's' to save the picture,you will get a view of the saved image which will automatically close in 1.6s and a new image file will be created in the same directory as that of the program. The image will be saved as Saved_image.jpg
-7. The file saved_image is furthered converted to grayscale and then resized to 30x30 size for further use in relevant programs, for example, machine learning, which was my primary requirement of creating this file.
+1. Run the file industrial-video.py
+2. The camera will start running
+3. If you want to quit, just press 'q'
